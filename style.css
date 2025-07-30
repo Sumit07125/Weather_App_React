@@ -1,0 +1,7 @@
+body {
+  background: url("img.jpeg");
+  background-size: 220vh 120vh;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
