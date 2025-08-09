@@ -10,7 +10,7 @@ export default function SearchBox({ updateInfo }) {
   let [err, setErr] = useState(false);
 
   let API_URL = "https://api.openweathermap.org/data/2.5/weather?";
-  let API_KEY = "9f71bc8a3e02acc98cf341"; //.............. API KEY ENTER is wrong Api key please enter ypur key from openweather web app ............
+  let API_KEY = "9f71bc8a3e02f6bfb"; //.............. API KEY ENTER is wrong Api key please enter ypur key from openweather web app ............
 
   let getWeatherData = async (city) => {
     try {
